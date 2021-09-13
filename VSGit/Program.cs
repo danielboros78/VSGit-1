@@ -11,11 +11,18 @@ namespace VSGit
     static void Main(string[] args)
     {
       ElsoFeladat();
-
+            MasodikFeladat();
       Console.ReadKey();
     }
 
-    private static void ElsoFeladat()
+        private static void MasodikFeladat()
+        {
+            Random rnd = new Random();
+            int x = rnd.Next(1, 101);
+            Console.WriteLine(x);
+        }
+
+        private static void ElsoFeladat()
     {
       Console.WriteLine("Próba");
     }
